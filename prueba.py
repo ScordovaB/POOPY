@@ -7,3 +7,5 @@ class Car:
 
     def drive(self):
         print("En circulacion el "+ self.make +" "+self.model+ " Del año "+self.year +" y es del color "+ self.color)
+    def stop(self):
+        print("Carro " +self.make + " se detuvo.")
